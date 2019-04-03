@@ -1,0 +1,44 @@
+@at-root {
+	@-ms-viewport {
+		width: device-width;
+	} // stylelint-disable-line at-rule-no-vendor-prefix
+}
+
+html {
+	box-sizing: border-box;
+	-ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+$bgWhite: #fff;
+
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+@import "../bootstrap/mixins";
+@import "../bootstrap/reboot";
+@import "../bootstrap/mixins/breakpoints";
+@import "../bootstrap/mixins/grid-framework";
+@import "../bootstrap/mixins/grid";
+@import "../bootstrap/grid";
+@import "../bootstrap/utilities/flex";
+
+@import "../bootstrap/alert";
+@import "../bootstrap/card";
+@import "../bootstrap/code";
+@import "../bootstrap/forms";
+@import "../bootstrap/custom-forms";
+@import "../bootstrap/buttons";
+@import "../bootstrap/images";
+@import "../bootstrap/input-group";
+@import "../bootstrap/tables";
+@import "../bootstrap/transitions";
+@import "../bootstrap/nav";
+@import "../bootstrap/navbar";
+@import "../bootstrap/button-group";
+
+@import "main";

@@ -1,0 +1,29 @@
+#ris_map {
+	width: 100%;
+	height: 500px;
+}
+#formpolygon {
+	padding: 25px;
+	background: #fff;
+	max-width: 1024px;
+}
+* {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+.adm-detail-tabs-block {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+.adm-workarea select {
+	height: auto !important;
+}
+
+#formpolygon {
+	box-sizing: border-box;
+}
+#geometry {
+	padding: 25px;
+}

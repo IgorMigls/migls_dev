@@ -1,0 +1,124 @@
+.err_win {
+	width: 430px;
+	height: 490px;
+	background: #fff;
+	margin: 0 auto;
+}
+.header_win {
+	height: 245px;
+}
+.err_win .header_win {
+	background: url("/local/dist/images/r_bottom_border.png") left bottom #ff0000 repeat-x;
+}
+.err_win .err_icon {
+	background: url(/local/dist/images/x_win.png) center center;
+	width: 112px;
+	height: 112px;
+	margin: 0 auto;
+	position: relative;
+	top: 75px;
+}
+.win_h1 {
+
+}
+.win_content {
+	margin: 40px auto 0;
+	width: 85%;
+}
+.win_content h2 {
+	font-size: 36px;
+	font-family: 'HelveticaNeueCyr-Thin', "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 10px 0 20px 0;
+	padding: 10px 0 17px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.show_win_custom .mfp-inline-holder .mfp-content {
+	width: auto;
+}
+.show_win_custom .mfp-close {
+	background-image: url("/local/dist/images/sprite2.png");
+	background-position: -352px -501px;
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	right: -40px;
+	top: 0;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	outline: none;
+	text-indent: -9999px;
+}
+.error_msg {
+	/*color: #ff0000;*/
+}
+
+.favorite_list_icon {
+	width: 95px;
+	height: 95px;
+	background: url("/local/dist/images/favorite_icon_1.png") no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+	position: relative;
+	top: 75px;
+}
+.favorite_list_win {
+	width: 430px;
+	height: 490px;
+	background: #fff;
+	margin: 0 auto;
+}
+.favorite_list_win .header_win {
+	background: url("/local/dist/images/r_bottom_border_w.png") left bottom #ffda00 repeat-x;
+}
+.prod__star.star_null {
+	background-position: -530px -618px !important;
+}
+.b-products-slider__item.no_active {
+	opacity: 0.4;
+}
+.lk__select__link.active_cheked:first-child:before {
+	content: '';
+	width: 15px;
+	height: 15px;
+	background: #32b95c;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.lk__custom-lists {
+	padding-bottom: 25px !important;
+}
+.last_fav_item_name {
+	font-size: 70%;
+	color: #6d6d6d !important;
+}
+.lk__title_reset a:hover {
+	color: #999;
+}
+.lk__lists__item .edit_item {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 85%;
+	color: #ccc;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.lk__lists__item .edit_item:hover {
+	color: #000;
+}
+.b_item_shop_favorite {
+	padding: 10px 0;
+}
+.shop_favorite_img {
+	padding: 10px 0;
+}
+
+.favorite_list .b-product-preview__count_short {
+	width: 42%;
+}

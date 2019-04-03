@@ -1,0 +1,59 @@
+.col__700 {
+	position: absolute;
+	left: -215%;
+	top: 0;
+}
+.jsTab {
+	margin-right: 5px;
+}
+.day__table .green-t {
+	cursor: pointer;
+}
+.set_times.choose {
+	background: #eeeeee;
+	box-shadow: inset 0 2px 4px #bfbfbf;
+}
+.day__table tr td:first-child{
+	padding-left: 10px;
+}
+.day__table tr td:last-child {
+	padding-right: 10px;
+}
+.b-header-popup__filter_catalog div, .b-header-popup__filter_catalog input, .b-header-popup__filter_catalog select,
+.selectize-input, .selectize-control.single .selectize-input.input-active {
+	background: #f0efec;
+}
+.btn_address {
+	width: auto;
+}
+.order1__form .b-button_del.btn_address {
+	margin-bottom: 0;
+}
+.set_times {
+	cursor: pointer;
+}
+.order2__form .interval__img.b-ib {
+	min-height: 84px;
+}
+.ui-autocomplete {
+	box-shadow: 0 8px 18px #999;
+	background: #fff;
+	max-width: 400px !important;
+	margin: 0; padding: 0;
+}
+.ui-autocomplete .ui-menu-item {
+	font-size: 13px;
+	line-height: 25px;
+	color: #000;
+	margin: 0;
+	padding: 3px 10px;
+	border-bottom: 1px solid #efefef;
+}
+.ui-autocomplete .ui-menu-item.ui-state-focus {
+	background: #32b95c;
+	color: #fff;
+	border: none;
+}
+#ya_maps_hidden {
+
+}

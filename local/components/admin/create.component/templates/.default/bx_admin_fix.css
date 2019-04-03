@@ -1,0 +1,9 @@
+.adm-workarea select[disabled], .adm-workarea input[disabled],
+.adm-workarea textarea[disabled], .adm-workarea textarea[readonly],
+.adm-workarea input[readonly] {
+	opacity: 1;
+}
+.adm-workarea .adm-input, .adm-workarea input[type="text"],
+.adm-workarea input[type="password"], .adm-workarea input[type="email"] {
+	height: 36px;
+}

@@ -1,0 +1,34 @@
+.ab_modal_wrap {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1010;
+}
+.ab_modal_content {
+	position: absolute;
+	z-index: 1020;
+	background: #fff;
+	margin: 0 auto;
+}
+.ab_modal_content .bg_reverse {
+	display: block;
+	min-height: 175px;
+}
+.ab_modal_content .b-popup-cart__head {
+	margin: 0;
+}
+.ab_modal_content .cart__prod-title{
+	width: 30%;
+	float: left;
+	display: block;
+}
+.ab_modal_content .recovery__title {
+
+}
+.ab_modal_overlay {
+	background: rgba(255,156,34,0.69);
+	position: fixed;
+	top:0; left: 0;
+	height: 100%; width: 100%;
+	z-index: 1000;
+}

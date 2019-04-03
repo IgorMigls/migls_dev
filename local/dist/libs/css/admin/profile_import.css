@@ -1,0 +1,72 @@
+#folder_items  li {
+	list-style: none;
+	border: 1px solid #dce7ed;
+	line-height: 30px;
+	border-top: none;
+}
+#folder_items li a.handler_subitems {
+	padding: 0 0 0 25px;
+	display: inline-block;
+	background: url("/bitrix/panel/main/images/icons-sprite-12.png") no-repeat left -112px;
+	text-decoration: none;
+}
+#folder_items li ul {
+	display: none;
+}
+#folder_items li a span {
+	border-bottom: 1px dashed #337ab7;
+}
+
+#folder_items li a:hover {
+	color: #44a8f6;
+}
+#folder_items li a:hover span{
+	border-bottom: 1px dashed #44a8f6;
+}
+#folder_items li a .fa-minus {display: none}
+a.profile_change {
+	margin-left: 20px;
+	text-decoration: none;
+	color: #999;
+	border-bottom: 1px dashed #999;
+	font-size: 90%;
+}
+a.profile_change span {
+	border: none;
+}
+
+#as_overlay {
+	background: rgba(255,156,34,0.69);
+	position: fixed;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	z-index: 900;
+	display: none;
+}
+.as_loader {
+	position: fixed;
+	padding: 15px 20px;
+	background: #fff;
+	z-index: 1000;
+	border-radius: 5px;
+	box-shadow: 0 0 7px #9e9e9e;
+	left: 50%;
+	top: 50%;
+	display: none;
+}
+.as_loader .spinner {
+	float: left; margin-right: 10px;
+}
+.as_loader .as_msg {
+	position: relative;
+	top: 7px;
+}
+.item_rows {
+	margin: 20px auto;
+}
+
+button.adm-btn-save {
+	height: 29px;
+	font-weight: bold;
+	font-size: 13px;
+}

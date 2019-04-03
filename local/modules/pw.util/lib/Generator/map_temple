@@ -1,0 +1,23 @@
+<?php namespace #NAMESPACE#;
+
+use Bitrix\Main\Entity;
+use Bitrix\Main\Localization\Loc;
+
+Loc::loadMessages(__FILE__);
+
+class #CLASS_NAME# extends Entity\DataManager
+{
+	public static function getTableName()
+	{
+		return '#TABLE_NAME#';
+	}
+
+	public static function getMap()
+	{
+		$map = #MAP_FIELDS#;
+
+		return $map;
+	}
+
+    #VALIDATORS#
+}

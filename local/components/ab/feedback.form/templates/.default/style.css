@@ -1,0 +1,14 @@
+.form_wrap {
+	width: 60%;
+	margin: 15px auto;
+}
+.form_items {
+	padding-top: 15px
+}
+.form_items .red_star {
+	font-size: 110%;
+	color: red;
+}
+.form_items textarea.form-control {
+	height: 150px;
+}

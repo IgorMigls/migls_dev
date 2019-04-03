@@ -1,0 +1,54 @@
+* {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+.adm-detail-tabs-block {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+.adm-workarea select {
+	height: auto !important;
+}
+.clear_20 {
+	height: 20px;
+	width: 100%;
+	display: block;
+	border: none !important;
+	background: none !important;
+}
+
+.map_generator {
+	box-sizing: border-box;
+}
+.map_generator .row {
+	margin-top: 20px;
+}
+.map_generator .form-group {
+	/*padding: 20px 0;*/
+}
+.map_generator label {
+	text-align: right;
+}
+.map_generator input {
+	height: 32px !important;
+	padding: 0 12px !important;
+	font-size: 14px !important;
+	line-height: 1.42857143 !important;
+}
+.table_search .form-inline .form-group {
+	margin-left: 0; margin-right: 0;
+}
+
+.map_generator .adm-designed-checkbox-label {
+	padding: 0 !important;
+	width: 17px !important;
+	height: 17px !important;
+}
+.map_generator .table {
+	background: #fff;
+}
+.map_generator span.adm-detail-tab.adm-detail-tab-active {
+	height: 40px;
+}

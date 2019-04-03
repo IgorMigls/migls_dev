@@ -1,0 +1,16 @@
+.soc_bottom {
+	display: flex;
+}
+.soc_bottom .fab {
+	font-size: 1.7rem;
+	margin-right: 15px;
+}
+.soc_bottom a {
+	text-decoration: none;
+}
+.soc_bottom .fa-instagram {
+	color: #cb8477;
+}
+.soc_bottom .fa-vk {
+	color: #4a76a8;
+}

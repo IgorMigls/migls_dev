@@ -1,0 +1,247 @@
+$borderSep: 1px solid #e6e6e6;
+
+.modal_content.wrap_basket_modal {
+	position: fixed;
+}
+
+.accept_order {
+	width: 430px;
+	min-height: 570px;
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	p {
+		margin: 10px 0;
+		line-height: 22px;
+		color: #373737;
+		font-size: 14px;
+		text-align: left;
+	}
+	h3 {
+		text-align: left;
+		margin: 15px 0;
+	}
+
+	&__head{
+		width: 100%;
+		height: 250px;
+		background: url(/local/dist/images/r_bottom_border_w.png) left bottom #ffda00 repeat-x;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	&__content {
+		width: 90%;
+		margin: 0 5%;
+		overflow: hidden;
+	}
+
+	&__footer {
+		padding-bottom: 25px;
+	}
+
+	.replace_btn_ {
+		height: 33px;
+		font-size: 14px;
+		line-height: 33px;
+		border-radius: 30px;
+		background: #e5e5e5;
+		padding: 0 14px;
+		color: #373737;
+		text-decoration: none;
+		margin: 0 7px;
+	}
+	.replace_btn_.basket {
+		background: url(/local/dist/images/basket_btn_icon.png) #e5e5e5 no-repeat 10px center;
+		color: #373737;
+		padding: 0 20px 0 40px;
+	}
+	.replace_btn_.confirm_orders {
+		background: #34c263;
+		color: #fff;
+		padding: 0 14px;
+
+		&:before {
+			content: '';
+			background-image: url(/local/dist/images/sprite2.png);
+			background-position: -736px -519px;
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 6px;
+			position: relative;
+			top: -2px;
+		}
+	}
+}
+
+.replace_wrap {
+	width: 480px;
+	height: 90vh;
+	background: #fff;
+	margin-right: 10px;
+	overflow: hidden;
+
+	&__head {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 80px;
+		padding: 15px;
+		margin-bottom: 15px;
+
+		span {
+			display: block;
+			font-size: 20px;
+			margin: 10px 0 15px 0;
+		}
+
+		.check__back {
+			text-decoration: none;
+			font-size: 14px;
+			color: #000;
+
+			&:before {
+				content: '';
+				background-image: url(/local/dist/images/sprite2.png);
+				background-position: -214px -529px;
+				width: 16px;
+				height: 16px;
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 5px;
+				transform: rotateZ(-90deg);
+			}
+
+		}
+	}
+
+	&__search {
+		padding: 30px;
+		background: linear-gradient(to left, #fac10e 0%, #fbc902 30%, #fcd000 65%, #ffe800 100%);
+	}
+
+	&__input {
+		border: none;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		height: 40px;
+		padding: 0 50px 0 20px;
+		width: 100%;
+		background: #fff
+	}
+
+	&__products {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 25px 20px;
+		overflow: hidden;
+		height: 69vh;
+	}
+
+	&__not-found {
+		text-align: center;
+		padding: 40px;
+		font-size: 1.3em;
+	}
+
+	.product_item {
+		width: 48%;
+		height: 265px;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		text-align: left;
+		justify-content: space-around;
+		margin-bottom: 30px;
+		border: $borderSep;
+		padding: 10px;
+		border-radius: 4px;
+
+		&__img {
+			height: 120px;
+			text-align: center;
+		}
+
+		&__name {
+			height: 48px;
+			overflow: hidden;
+		}
+
+		&__price {
+			font-size: 1.5em;
+			display: flex;
+			justify-content: space-around;
+			align-items: baseline;
+
+			.fa-rouble {
+				font-size: 0.8em;
+			}
+		}
+
+		&__action {
+
+			.b-button_green {
+				height: 33px;
+				color: #fff;
+				font-size: 14px;
+				line-height: 33px;
+				border-radius: 30px;
+				background: #34c263;
+				padding: 0 14px;
+				background: linear-gradient(to bottom, #34c263 0%, #71c54a 100%);
+
+				&:hover {
+					background: #32b95c;
+					background: linear-gradient(to bottom, #32b95c 0%, #66b83f 100%);
+					transition: background 0.3s ease-out;
+				}
+			}
+		}
+	}
+}
+
+.bs_product_item {
+	&__replace {
+		border-top: 1px dashed #fdd000;
+		margin: 10px 0;
+		padding-top: 10px;
+		display: flex;
+
+		.bs_item_img {
+			width: 135px;
+			text-align: right;
+			margin-right: 10px;
+			padding-right: 15px;
+			font-weight: bold;
+		}
+
+		.replace_title {
+			font-weight: bold;
+		}
+
+		.replace_delete {
+			width: 125px;
+		}
+		.b-button__del{
+			width: 80px;
+		}
+		.bs_product_item {
+			font-size: 0.9em;
+		}
+	}
+}
+
+.b-button__del {
+	margin-left: 0;
+}

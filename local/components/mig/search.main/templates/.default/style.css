@@ -1,0 +1,25 @@
+#title-search {
+	display: flex;
+}
+#top_search {
+	width: 100%;
+}
+
+#top_search .b-header-search__center {
+	width: 100%;
+}
+
+#top_search .el-input__inner {
+	height: 33px;
+	border: none;
+	border-left: 1px solid #e5e5e5;
+}
+#top_search .el-input-group__append {
+	padding: 0;
+	border: none;
+	background: transparent;
+}
+
+.b-header-search__left {
+	width: 28% !important;
+}

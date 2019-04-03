@@ -1,0 +1,9 @@
+.p-1 {
+	background: url("./img/icons8-filled-50.png") no-repeat center center !important;
+}
+.p-6 {
+	background: url("./img/icons8--50.png") no-repeat center center !important;
+	width: 44px;
+	height: 45px;
+	display: inline-block;
+}

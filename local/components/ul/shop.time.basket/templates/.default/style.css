@@ -1,0 +1,37 @@
+.intervals__coll .interval__img-100 {
+	width: 262px !important;
+	height: 154px !important;
+}
+.intervals__coll {
+	vertical-align: top !important;
+}
+.time_items {
+	display: none;
+	float: right;
+	width: 47%;
+	position: absolute;
+	top: 290px;
+	right: 0;
+}
+.time_items.active {
+	display: block;
+}
+.shop_time_window {
+	float: left;
+	left: 0;
+	position: absolute;
+}
+.close_int_basket {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -20px;
+	left: 75px;
+	width: 20px;
+	height: 20px;
+	background: url("/local/dist/images/sprite2.png") no-repeat -736px -573px;
+}
+.interval__img-wrapper {
+	height: 200px;
+	overflow: hidden;
+}

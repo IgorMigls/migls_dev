@@ -1,0 +1,3 @@
+entities:
+    favorite:
+        model: UL\Main\Services\FavoriteTable

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<style>
+		body {
+			height: 4500px;
+		}
+		.grey_head {
+			background: #9a9a9c;
+			position: relative;
+			z-index: 0;
+			height: 62px;
+			width: 100%;
+		}
+		.table_products {
+			position: relative;
+			z-index: 10;
+			top: -62px;
+			margin-bottom: -62px;
+		}
+		.table_products thead > tr {
+			height: 63px !important;
+		}
+		
+		.grey_head.fix {
+			position: fixed;
+			top: 0;
+			z-index: 100;
+		}
+		.table_fixed  {
+			top: 0;
+			position: relative;
+			/*z-index: 200 !important;*/
+		}
+	</style>
+</head>
+<body>
+	<div style="height: 300px; background: #eeeeee" class="container"></div>
+	<div class="grey_head"><div class="grey_head_inner container"></div></div>
+	<div class="container">
+		<table class="table table-striped table_products">
+			<thead>
+			<tr class="grey_head_tr">
+				<th class="articl">Артикул</th>
+				<th class="name">Наименование</th>
+				<th class="power">Мощность, <br>Вт</th>
+				<th class="chokol">Цоколь</th>
+				<th class="chokol">Цветовая <br> температура</th>
+				<th class="chokol">Цена</th>
+				<th class="chokol">Ваша <br>цена</th>
+				<th class="chokol">Остаток</th>
+				<th class="chokol">Количество</th>
+				<th class="chokol">В корзину</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			<tr>
+				<td class="articl">LSA001023</td>
+				<td class="name">Светодиодная лампа
+					Genta LED A60 10W E27
+					3000K 170-260V
+				</td>
+				<td class="power">10</td>
+				<td class="chokol">Е27</td>
+				<td class="chokol">3000</td>
+				<td class="chokol">500 руб.</td>
+				<td class="chokol">300 руб.</td>
+				<td class="chokol">
+					<span>350 &gt;</span>
+					<span>300 &lt;</span>
+				</td>
+				<td class="chokol"><input type="text"></td>
+				<td class="chokol"><a href="/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<script type="text/javascript">
+		var options = {
+			scrollAfter: 300, // через сколько px активировать шапку
+			table: '.table_products', // класс или id таблицы
+			line: '.grey_head', // полоска, которая тоже будет ездить
+		};
+		
+		
+		var $table = $(options.table);
+		if($table.length > 0){
+			var $tableHead = $table.find('thead'), $line = $(options.line);
+			var copyTableHtml = '<table class="table_fixed"><thead></thead></table>';
+			$(window).scroll(function(){
+				if ( $(window).scrollTop() >= options.scrollAfter){
+				
+					if($('.table_fixed').length == 0){
+						$line.find('.grey_head_inner').append(copyTableHtml);
+						var $table_fixed = $('.table_fixed');
+						$table_fixed.hide(0);
+						$table_fixed.find('thead').append($tableHead.html());
+						$table_fixed.show(0);
+
+						$table_fixed.attr('class', 'table_fixed '+ $table.attr('class'));
+						
+						$line.addClass('fix');
+					}
+					
+				} else {
+					$line.removeClass('fix');
+					$line.find('.grey_head_inner table').remove();
+				}
+			});
+		}
+
+	</script>
+</body>
+</html>
